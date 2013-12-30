@@ -78,7 +78,7 @@ class SeedProd_WordPress_Notification_Bar{
         	$bg_color = $options['bg_color'];
         	$css="
         	@Color: {$bg_color};
-			@DarkColor: darken(@Color, 7%);
+			@DarkColor: darken(@Color, 5%);
 			.lightordark (@c) when (lightness(@c) >= 50%) {
 			  color: black;
 			}
@@ -102,7 +102,7 @@ class SeedProd_WordPress_Notification_Bar{
         		.lightordark2 (@Color);
         	}
 			#wnb-bar{
-			.lightordark (@Color);
+			&, a {.lightordark(@Color);}
 			position:{$position};
 			background-color: @Color;
 			background-image: -moz-linear-gradient(top, @Color, @DarkColor);

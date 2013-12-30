@@ -6,21 +6,21 @@
 	background:#000;
 	text-align:center;
 	color:#fff;
-	height:33px;
+	height:35px;
 	top:0px;
 	left:0px;
-	border-bottom: 3px solid #fff;
-		-webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
-	font-size:14px;
-	line-height: 33px;
+		-webkit-box-shadow: 0 0 10px #333333;
+	   -moz-box-shadow: 0 0 10px #333333;
+	        box-shadow: 0 0 10px  #333333;
+	font-weight: bold;
+	line-height: 35px;
 }
 
 #wnb-bar a, #wnb-bar a:link, #wnb-bar a:active, #wnb-bar a:visited, #wnb-bar a:hover{
 	font-family: sans-serif;
 	text-decoration:none;
 }
+
 .wnb-bar-button{
 	display:inline-block;
 	margin-left:5px;
