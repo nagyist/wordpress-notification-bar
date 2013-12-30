@@ -125,7 +125,7 @@ $seed_wnb->options[ ] = array(
     "type" => "color",
     "id" => "bg_color",
     "label" => __( "Background Color", 'seed_wnb' ),
-    "default_value" => "#fae985",
+    "default_value" => "#4d9023",
     "validate" => 'color',
 );
 }
